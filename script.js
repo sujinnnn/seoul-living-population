@@ -1,5 +1,5 @@
-const Seoul = "Data/Clean/Seoul_dong.geojson"
-const local_people = "Data/Clean/local_people_dong.csv"
+const Seoul = "./Data/Clean/Seoul_dong.geojson"
+const local_people = "./Data/Clean/local_people_dong.csv"
 
 let globalGeoData, globalPropData;
 
