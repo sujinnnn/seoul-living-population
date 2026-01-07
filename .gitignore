@@ -1,0 +1,11 @@
+
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+*.qgz
+*.xlsx
+TEMP_*
+LOCAL_*
+
