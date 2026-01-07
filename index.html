@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scrollytelling Example</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://unpkg.com/scrollama"></script>
+  
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    .graphic {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #ffffff;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="graphic">
+      <div id = "viz">
+      </div>
+      
+    </div>
+  </div>
+
+  <script src = "script.js">
+
+// const steps = document.querySelectorAll('.step');
+    // const graphicContent = document.getElementById('graphic-content');
+
+    // const handleScroll = () => {
+    //   steps.forEach(step => {
+    //     const rect = step.getBoundingClientRect();
+    //     if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+    //       const stepData = step.getAttribute('data-step');
+    //       graphicContent.textContent = `Graphic for Step ${stepData}`;
+    //     }
+    //   });
+    // };
+
+    // document.querySelector('.text').addEventListener('scroll', handleScroll);
+  </script>
+</body>
+</html>
