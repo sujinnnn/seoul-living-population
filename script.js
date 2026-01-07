@@ -52,6 +52,15 @@ svg.append("text")
   .text("Seoul's Living Population")
 
 
+svg.append("text")
+  .attr("x", 860)
+  .attr("y", 720)
+  .attr("text-anchor", "left")
+  .attr("fill", "#333")
+  .attr("font-size", "10px")  
+  .text("resource : https://story.pxd.co.kr/1408")
+
+
 const infoPanel = svg.append("g")
   .attr("id", "info-panel") 
   .attr("transform", `translate(660, 105)`);
